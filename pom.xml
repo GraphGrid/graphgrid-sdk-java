@@ -26,11 +26,10 @@
     <developers>
         <developer>
             <id>graphgrid</id>
+            <name>The GraphGrid Team</name>
+            <url>https://graphgrid.com</url>
             <organization>GraphGrid, Inc.</organization>
-            <organizationUrl>https://www.graphgrid.com</organizationUrl>
-            <roles>
-                <role>developer</role>
-            </roles>
+            <organizationUrl>https://graphgrid.com</organizationUrl>
         </developer>
     </developers>
 
