@@ -28,8 +28,6 @@ import com.graphgrid.sdk.core.model.UserRequest;
 
 /**
  * Acts as an adapter to get a user token from spring security context
- *
- * @author bradnussbaum
  */
 public class SpringSecurityContextTokenFactory implements SessionFactory
 {

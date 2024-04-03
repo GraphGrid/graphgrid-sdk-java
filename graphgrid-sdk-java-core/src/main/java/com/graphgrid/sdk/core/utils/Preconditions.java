@@ -21,8 +21,6 @@ import com.graphgrid.sdk.core.exception.GraphGridSdkInvalidArgumentException;
 
 /**
  * Helper methods for input validation.
- *
- * @author bradnussbaum
  */
 public class Preconditions
 {

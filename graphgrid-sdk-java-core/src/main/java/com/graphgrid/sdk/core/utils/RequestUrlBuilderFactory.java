@@ -23,8 +23,6 @@ import com.graphgrid.sdk.core.model.GraphGridServiceRequest;
 
 /**
  * Preferred way of using {@link com.graphgrid.sdk.core.utils.UrlBuilder} to build request endpoints
- *
- * @author bradnussbaum
  */
 public class RequestUrlBuilderFactory
 {

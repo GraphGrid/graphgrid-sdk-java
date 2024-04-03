@@ -21,8 +21,6 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 
 /**
  * Use when token is provided by the client
- *
- * @author bradnussbaum
  */
 public class TokenRequest implements RequestAuthMethod
 {

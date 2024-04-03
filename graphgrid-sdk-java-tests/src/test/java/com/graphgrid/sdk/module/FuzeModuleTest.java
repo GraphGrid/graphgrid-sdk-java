@@ -42,9 +42,6 @@ import com.graphgrid.sdk.model.policy.PolicyRetrieveResponse;
 import com.graphgrid.sdk.model.policy.PolicySaveRequest;
 import com.graphgrid.sdk.model.policy.PolicySaveResponse;
 
-/**
- * @author bradnussbaum
- */
 public class FuzeModuleTest extends SdkTestBase
 {
 

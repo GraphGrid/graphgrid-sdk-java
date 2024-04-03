@@ -28,9 +28,6 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-/**
- * @author bradnussbaum
- */
 public class SecurityModuleTest extends SdkTestBase
 {
 

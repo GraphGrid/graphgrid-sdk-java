@@ -25,9 +25,6 @@ import com.graphgrid.sdk.model.FindFileRequest;
 
 import static org.junit.Assert.assertNotNull;
 
-/**
- * @author bradnussbaum
- */
 public class RequestTokenBuilderTest extends SdkTestBase
 {
     @Test

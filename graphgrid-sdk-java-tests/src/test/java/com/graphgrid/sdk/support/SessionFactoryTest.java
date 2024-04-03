@@ -29,13 +29,10 @@ import com.graphgrid.sdk.core.model.GraphGridServiceRequest;
 
 import static org.junit.Assert.assertTrue;
 
-/**
- * @author bradnussbaum
- */
 public class SessionFactoryTest
 {
 
-    private Supplier<Object> contextSupplier = MockSecurityContext::new;
+    private final Supplier<Object> contextSupplier = MockSecurityContext::new;
 
     @Before
     public void setUp()

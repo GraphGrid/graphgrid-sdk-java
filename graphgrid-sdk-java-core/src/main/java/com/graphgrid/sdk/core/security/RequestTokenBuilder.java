@@ -21,9 +21,6 @@ import com.graphgrid.sdk.core.exception.GraphGridSecurityException;
 import com.graphgrid.sdk.core.model.GetTokenResponse;
 import com.graphgrid.sdk.core.model.GraphGridServiceRequest;
 
-/**
- * @author bradnussbaum
- */
 public class RequestTokenBuilder
 {
 

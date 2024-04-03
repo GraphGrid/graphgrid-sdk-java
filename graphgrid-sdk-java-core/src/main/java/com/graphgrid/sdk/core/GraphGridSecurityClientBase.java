@@ -29,8 +29,6 @@ import static com.graphgrid.sdk.core.utils.Preconditions.checkNotNull;
 /**
  * Adds security services/ context {@link GraphGridClientBase} Handles authentication and token management for request Should be extended by Client class that
  * calls actual gg service endpoints.
- *
- * @author bradnussbaum
  */
 public class GraphGridSecurityClientBase extends GraphGridClientBase
 {

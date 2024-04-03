@@ -15,9 +15,6 @@
  */
 package com.graphgrid.sdk.support;
 
-/**
- * @author bradnussbaum
- */
 public final class Endpoints
 {
 
