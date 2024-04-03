@@ -37,7 +37,6 @@ import static com.graphgrid.sdk.core.utils.Preconditions.checkNotNull;
 
 /**
  * Handles making http request to graph grid rest endpoint.
- *
  */
 public class GraphGridHttpClient
 {
