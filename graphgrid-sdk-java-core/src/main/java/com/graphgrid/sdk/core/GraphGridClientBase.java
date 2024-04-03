@@ -27,7 +27,6 @@ import static com.graphgrid.sdk.core.utils.Preconditions.checkNotNull;
 /**
  * Base service for other graph grid client services
  *
- * @author bradnussbaum
  */
 public abstract class GraphGridClientBase
 {

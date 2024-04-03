@@ -41,9 +41,6 @@ import com.graphgrid.sdk.model.UploadFileMetadata;
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertNotNull;
 
-/**
- * @author bradnussbaum
- */
 public class FilesModuleTest extends SdkTestBase
 {
 

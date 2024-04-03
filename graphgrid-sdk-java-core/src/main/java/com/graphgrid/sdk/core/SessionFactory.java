@@ -17,9 +17,6 @@ package com.graphgrid.sdk.core;
 
 import com.graphgrid.sdk.core.model.GraphGridServiceRequest;
 
-/**
- * @author bradnussbaum
- */
 public interface SessionFactory
 {
 

@@ -30,9 +30,6 @@ import com.graphgrid.sdk.model.PersistFileNodeOnlyResponse;
 import com.graphgrid.sdk.model.UploadFileRequest;
 import com.graphgrid.sdk.model.UploadFileResponse;
 
-/**
- * @author bradnussbaum
- */
 public interface GraphGridFiles
 {
 

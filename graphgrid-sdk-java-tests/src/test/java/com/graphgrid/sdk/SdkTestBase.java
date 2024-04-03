@@ -32,9 +32,6 @@ import java.util.Properties;
 
 import com.graphgrid.sdk.core.security.SecurityConfig;
 
-/**
- * @author bradnussbaum
- */
 @ActiveProfiles( "test" )
 @RunWith( SpringRunner.class )
 @SpringBootTest( classes = SdkTestModule.class, properties = "server.port:0" )

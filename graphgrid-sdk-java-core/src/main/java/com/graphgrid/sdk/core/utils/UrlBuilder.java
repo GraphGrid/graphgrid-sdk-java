@@ -38,7 +38,6 @@ import static com.graphgrid.sdk.core.utils.Preconditions.checkNotNull;
 /**
  * Builds raw URL.
  *
- * @author bradnussbaum
  */
 public class UrlBuilder
 {

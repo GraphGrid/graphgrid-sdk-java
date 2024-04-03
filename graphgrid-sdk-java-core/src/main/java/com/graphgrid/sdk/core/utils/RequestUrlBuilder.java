@@ -36,7 +36,6 @@ import static com.graphgrid.sdk.core.utils.Preconditions.checkNotNull;
  * Wrapper around {@link UrlBuilder} for builds urls for {@link GraphGridServiceRequest} controls if a {@link GraphGridServiceRequest#getEndpoint()} should be
  * overwritten if present.
  *
- * @author bradnussbaum
  */
 public class RequestUrlBuilder
 {

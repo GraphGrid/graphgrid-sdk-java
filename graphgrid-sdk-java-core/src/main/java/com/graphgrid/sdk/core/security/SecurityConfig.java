@@ -22,7 +22,6 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 /**
  * Holds credentials needed to authenticate and acquire token
  *
- * @author bradnussbaum
  */
 public class SecurityConfig
 {

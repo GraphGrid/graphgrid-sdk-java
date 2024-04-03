@@ -20,7 +20,6 @@ import com.graphgrid.sdk.core.model.GetTokenResponse;
 /**
  * Used to authenticate and acquire token
  *
- * @author bradnussbaum
  */
 public interface SecurityService
 {

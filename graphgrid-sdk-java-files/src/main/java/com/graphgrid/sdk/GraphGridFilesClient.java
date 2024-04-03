@@ -41,9 +41,6 @@ import com.graphgrid.sdk.support.Endpoints;
 import static com.graphgrid.sdk.support.Endpoints.CREATE_ONLY;
 import static com.graphgrid.sdk.support.Endpoints.DOWNLOAD;
 
-/**
- * @author bradnussbaum
- */
 public class GraphGridFilesClient extends GraphGridSecurityClientBase implements GraphGridFiles
 {
 

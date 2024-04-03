@@ -22,7 +22,6 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 /**
  * Will acquire token based on user name and password should only be used for testing purpose
  *
- * @author bradnussbaum
  */
 public class UserTokenRequest implements RequestAuthMethod
 {
