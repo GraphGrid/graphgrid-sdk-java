@@ -7,11 +7,10 @@
         <groupId>com.graphgrid</groupId>
         <artifactId>parent</artifactId>
         <version>2.0.1-SNAPSHOT</version>
-        <relativePath>../build/parent</relativePath>
+        <relativePath>../build</relativePath>
     </parent>
 
-    <groupId>com.graphgrid</groupId>
-    <artifactId>graphgrid-sdk-java-pom</artifactId>
+    <artifactId>graphgrid-sdk-java-parent</artifactId>
     <version>2.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -32,6 +31,18 @@
             <organizationUrl>https://graphgrid.com</organizationUrl>
         </developer>
     </developers>
+
+    <licenses>
+        <license>
+            <name>GNU Affero General Public License, Version 3</name>
+            <url>http://www.gnu.org/licenses/agpl-3.0-standalone.html</url>
+            <comments>The software ("Software") developed and owned by GraphGrid, Inc.
+                (referred to in this notice as "GraphGrid") is
+                licensed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3 to all
+                third parties and that license is included below.
+            </comments>
+        </license>
+    </licenses>
 
     <scm>
         <connection>scm:git:https://github.com/graphgrid/graphgrid-sdk-java.git</connection>

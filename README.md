@@ -13,7 +13,7 @@ core module is required
         <dependency>
             <groupId>com.graphgrid</groupId>
             <artifactId>graphgrid-sdk-java-core</artifactId>
-            <version>[${project.parent.version}],[${revision}]</version>
+            <version>${project.version}</version>
         </dependency>       
 
  ```       
@@ -22,7 +22,7 @@ client/service module should be added as needed
         <dependency>
             <groupId>com.graphgrid</groupId>
             <artifactId>graphgrid-sdk-java-files</artifactId>
-            <version>[${project.parent.version}],[${revision}]</version>
+            <version>${project.version}</version>
         </dependency>        
 ```
    
