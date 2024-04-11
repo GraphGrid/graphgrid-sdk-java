@@ -14,7 +14,7 @@
     <version>2.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>GraphGrid :: SDK :: Java :: Parent</name>
+    <name>GraphGrid :: SDK :: Java</name>
     <description>A GraphGrid project for managing versions and build process</description>
 
     <organization>
