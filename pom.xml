@@ -65,21 +65,16 @@
         <version.java>1.8</version.java>
     </properties>
 
+    <modules>
+        <module>graphgrid-sdk-java-config</module>
+        <module>graphgrid-sdk-java-core</module>
+        <module>graphgrid-sdk-java-files</module>
+        <module>graphgrid-sdk-java-fuze</module>
+        <module>graphgrid-sdk-java-ml</module>
+        <module>graphgrid-sdk-java-tests</module>
+    </modules>
+
     <profiles>
-        <profile>
-            <id>build-project</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <modules>
-                <module>graphgrid-sdk-java-config</module>
-                <module>graphgrid-sdk-java-core</module>
-                <module>graphgrid-sdk-java-files</module>
-                <module>graphgrid-sdk-java-fuze</module>
-                <module>graphgrid-sdk-java-ml</module>
-                <module>graphgrid-sdk-java-tests</module>
-            </modules>
-        </profile>
         <profile>
             <id>release-public</id>
             <distributionManagement>
