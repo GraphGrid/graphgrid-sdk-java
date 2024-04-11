@@ -7,6 +7,7 @@
         <groupId>com.graphgrid</groupId>
         <artifactId>graphgrid-sdk-java-parent</artifactId>
         <version>2.0.1-SNAPSHOT</version>
+        <relativePath>../</relativePath>
     </parent>
 
     <artifactId>graphgrid-sdk-java-fuze</artifactId>
