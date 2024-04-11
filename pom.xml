@@ -3,13 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.graphgrid</groupId>
-        <artifactId>parent</artifactId>
-        <version>2.0.1-SNAPSHOT</version>
-        <relativePath>../build</relativePath>
-    </parent>
 
+    <groupId>com.graphgrid</groupId>
     <artifactId>graphgrid-sdk-java-parent</artifactId>
     <version>2.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -55,12 +50,12 @@
         <maven.repository.s3.releases/>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <jackson.version>2.6.7</jackson.version>
+        <jackson.version>2.9.8</jackson.version>
         <junit.version>4.12</junit.version>
         <commons.io.version>2.4</commons.io.version>
         <commons.lang.version>3.7</commons.lang.version>
         <httpcomponents.httpclient.version>4.5.13</httpcomponents.httpclient.version>
-        <slf4j.version>1.7.25</slf4j.version>
+        <slf4j.version>1.7.26</slf4j.version>
         <org.kuali.maven.wagons.version>1.2.1</org.kuali.maven.wagons.version>
         <version.java>1.8</version.java>
     </properties>
