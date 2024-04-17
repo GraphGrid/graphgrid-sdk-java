@@ -4,17 +4,29 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>graphgrid-sdk-java-pom</artifactId>
+        <artifactId>graphgrid-sdk-java-parent</artifactId>
         <groupId>com.graphgrid</groupId>
         <version>3.0.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>graphgrid-sdk-java-config</artifactId>
-    <version>${revision}</version>
+    <version>3.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>GraphGrid :: SDK :: Java :: Config</name>
     <description>GraphGrid SDK Config Service Integration.</description>
+
+    <licenses>
+        <license>
+            <name>GNU Affero General Public License, Version 3</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0-standalone.html</url>
+            <comments>The software ("Software") developed and owned by GraphGrid, Inc.
+                (referred to in this notice as "GraphGrid") is
+                licensed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3 to all
+                third parties and that license is included below.
+            </comments>
+        </license>
+    </licenses>
 
     <dependencies>
         <dependency>
@@ -23,4 +35,5 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>
+
 </project>

@@ -3,19 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.graphgrid</groupId>
-        <artifactId>parent</artifactId>
-        <version>3.0.0-SNAPSHOT</version>
-        <relativePath>../build/parent</relativePath>
-    </parent>
 
     <groupId>com.graphgrid</groupId>
-    <artifactId>graphgrid-sdk-java-pom</artifactId>
+    <artifactId>graphgrid-sdk-java-parent</artifactId>
     <version>3.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>GraphGrid :: SDK :: Java :: Parent</name>
+    <name>GraphGrid :: SDK :: Java</name>
     <description>A GraphGrid project for managing versions and build process</description>
 
     <organization>
@@ -33,6 +27,18 @@
         </developer>
     </developers>
 
+    <licenses>
+        <license>
+            <name>GNU Affero General Public License, Version 3</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0-standalone.html</url>
+            <comments>The software ("Software") developed and owned by GraphGrid, Inc.
+                (referred to in this notice as "GraphGrid") is
+                licensed under the GNU AFFERO GENERAL PUBLIC LICENSE Version 3 to all
+                third parties and that license is included below.
+            </comments>
+        </license>
+    </licenses>
+
     <scm>
         <connection>scm:git:https://github.com/graphgrid/graphgrid-sdk-java.git</connection>
         <developerConnection>scm:git:git@github.com/graphgrid/graphgrid-sdk-java.git</developerConnection>
@@ -44,31 +50,26 @@
         <maven.repository.s3.releases/>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <jackson.version>2.6.7</jackson.version>
+        <jackson.version>2.9.8</jackson.version>
         <junit.version>4.12</junit.version>
         <commons.io.version>2.4</commons.io.version>
         <commons.lang.version>3.7</commons.lang.version>
         <httpcomponents.httpclient.version>4.5.13</httpcomponents.httpclient.version>
-        <slf4j.version>1.7.25</slf4j.version>
+        <slf4j.version>1.7.26</slf4j.version>
         <org.kuali.maven.wagons.version>1.2.1</org.kuali.maven.wagons.version>
         <version.java>1.8</version.java>
     </properties>
 
+    <modules>
+        <module>graphgrid-sdk-java-config</module>
+        <module>graphgrid-sdk-java-core</module>
+        <module>graphgrid-sdk-java-files</module>
+        <module>graphgrid-sdk-java-fuze</module>
+        <module>graphgrid-sdk-java-ml</module>
+        <module>graphgrid-sdk-java-tests</module>
+    </modules>
+
     <profiles>
-        <profile>
-            <id>build-project</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <modules>
-                <module>graphgrid-sdk-java-config</module>
-                <module>graphgrid-sdk-java-core</module>
-                <module>graphgrid-sdk-java-files</module>
-                <module>graphgrid-sdk-java-fuze</module>
-                <module>graphgrid-sdk-java-ml</module>
-                <module>graphgrid-sdk-java-tests</module>
-            </modules>
-        </profile>
         <profile>
             <id>release-public</id>
             <distributionManagement>
