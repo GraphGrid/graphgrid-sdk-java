@@ -48,16 +48,14 @@
     <properties>
         <maven.repository.s3.snapshots/>
         <maven.repository.s3.releases/>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <jackson.version>2.9.8</jackson.version>
-        <junit.version>4.12</junit.version>
-        <commons.io.version>2.4</commons.io.version>
-        <commons.lang.version>3.7</commons.lang.version>
-        <httpcomponents.httpclient.version>4.5.13</httpcomponents.httpclient.version>
-        <slf4j.version>1.7.26</slf4j.version>
-        <org.kuali.maven.wagons.version>1.2.1</org.kuali.maven.wagons.version>
+        <version.jackson>2.9.8</version.jackson>
         <version.java>1.8</version.java>
+        <version.junit>4.12</version.junit>
+        <version.commons.io>2.4</version.commons.io>
+        <version.commons.lang>3.7</version.commons.lang>
+        <version.httpcomponents.httpclient>4.5.13</version.httpcomponents.httpclient>
+        <version.slf4j>1.7.26</version.slf4j>
+        <version.org.kuali.maven.wagons>1.2.1</version.org.kuali.maven.wagons>
     </properties>
 
     <modules>
@@ -93,7 +91,6 @@
                             <source>${version.java}</source>
                             <target>${version.java}</target>
                             <debug>false</debug>
-                            <optimize>true</optimize>
                         </configuration>
                     </plugin>
                 </plugins>
@@ -122,7 +119,6 @@
                             <source>${version.java}</source>
                             <target>${version.java}</target>
                             <debug>false</debug>
-                            <optimize>true</optimize>
                         </configuration>
                     </plugin>
                 </plugins>
@@ -135,9 +131,19 @@
             <extension>
                 <groupId>org.kuali.maven.wagons</groupId>
                 <artifactId>maven-s3-wagon</artifactId>
-                <version>${org.kuali.maven.wagons.version}</version>
+                <version>${version.org.kuali.maven.wagons}</version>
             </extension>
         </extensions>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.12.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
 </project>
