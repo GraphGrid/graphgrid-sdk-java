@@ -29,7 +29,7 @@ import com.graphgrid.sdk.ml.constant.PipelineStageType;
 @JsonInclude( JsonInclude.Include.NON_NULL )
 @Getter
 @Setter
-@EqualsAndHashCode
+@EqualsAndHashCode( callSuper = false )
 public class Estimator extends PipelineStage
 {
 
