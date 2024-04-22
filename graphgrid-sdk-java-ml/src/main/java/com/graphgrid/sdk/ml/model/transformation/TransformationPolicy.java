@@ -33,7 +33,7 @@ import com.graphgrid.sdk.ml.model.MLPolicy;
 @JsonInclude( JsonInclude.Include.NON_NULL )
 @Getter
 @Setter
-@EqualsAndHashCode
+@EqualsAndHashCode( callSuper = false )
 public class TransformationPolicy extends MLPolicy
 {
 

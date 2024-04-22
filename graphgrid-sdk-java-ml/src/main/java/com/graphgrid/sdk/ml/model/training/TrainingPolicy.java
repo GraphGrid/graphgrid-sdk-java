@@ -31,7 +31,7 @@ import com.graphgrid.sdk.ml.model.spark.ml.PipelineStage;
 @JsonAutoDetect
 @Getter
 @Setter
-@EqualsAndHashCode
+@EqualsAndHashCode( callSuper = false )
 public class TrainingPolicy extends MLPolicy
 {
 
